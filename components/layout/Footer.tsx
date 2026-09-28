@@ -186,7 +186,7 @@ export default function Footer() {
                   { href: '/services#web-software', label: 'Website & Software' },
                   { href: '/services#graphic-design', label: 'Graphic Design & Creative' },
                   { href: '/services#digital-marketing', label: 'Digital Marketing' },
-                  { href: '/services#corporate-services', label: 'Corporate Services' },
+                  { href: '/services#corporate-services', label: 'Corporate Gifting & Printing' },
                   { href: '/services#maintenance-support', label: 'Maintenance & Support' },
                 ].map(({ href, label }) => (
                   <li key={href}>

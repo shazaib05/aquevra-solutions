@@ -44,7 +44,7 @@ const trustBadges = [
   { icon: Globe,    label: 'Web & Software' },
   { icon: Palette,  label: 'Creative & Design' },
   { icon: Megaphone, label: 'Digital Marketing' },
-  { icon: Briefcase, label: 'Corporate Services' },
+  { icon: Briefcase, label: 'Corporate Gifting & Printing' },
 ];
 
 // ---------------------------------------------------------------------------
@@ -226,7 +226,7 @@ export default function HeroSection() {
                 custom={0.2}
                 className="text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8 max-w-[95%]"
               >
-                From IT infrastructure and networking to websites, software, corporate printing,
+                From IT infrastructure and networking to websites, software, corporate gifting & printing,
                 creative design, and digital marketing — AQUEVRA SOLUTIONS delivers reliable technology
                 and digital solutions under one roof.
               </motion.p>

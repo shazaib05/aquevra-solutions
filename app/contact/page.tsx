@@ -47,7 +47,7 @@ const services = [
   'Networking Solutions',
   'CCTV & Security Systems',
   'Web & Software Development',
-  'Corporate Services & Printing',
+  'Corporate Gifting & Printing',
   'Graphic Design & Branding',
   'Digital Marketing',
   'Maintenance & Repair (AMC)',

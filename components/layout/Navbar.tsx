@@ -50,7 +50,7 @@ const serviceItems: ServiceItem[] = [
   { id: 'web-software', label: 'Website & Software', icon: Globe },
   { id: 'graphic-design', label: 'Graphic Design & Creative', icon: Palette },
   { id: 'digital-marketing', label: 'Digital Marketing', icon: Megaphone },
-  { id: 'corporate-services', label: 'Corporate Services', icon: Briefcase },
+  { id: 'corporate-services', label: 'Corporate Gifting & Printing', icon: Briefcase },
   { id: 'maintenance-support', label: 'Maintenance & Support', icon: Wrench },
 ];
 

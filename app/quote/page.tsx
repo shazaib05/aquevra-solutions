@@ -54,7 +54,7 @@ const serviceCheckboxes = [
   { id: 'cctv', label: 'CCTV & Security Systems', icon: Camera },
   { id: 'web-software', label: 'Web & Software Development', icon: Globe },
   { id: 'software-dev', label: 'Custom Business Software', icon: Code2 },
-  { id: 'corporate-services', label: 'Corporate Printing & Branding', icon: Briefcase },
+  { id: 'corporate-services', label: 'Corporate Gifting & Printing', icon: Briefcase },
   { id: 'graphic-design', label: 'Graphic Design & Creative', icon: Palette },
   { id: 'digital-marketing', label: 'Digital Marketing & SEO', icon: Megaphone },
   { id: 'maintenance', label: 'Maintenance & AMC Contracts', icon: Wrench },
