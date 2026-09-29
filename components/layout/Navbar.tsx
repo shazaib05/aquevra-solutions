@@ -80,6 +80,11 @@ export default function Navbar() {
   const dropdownRef = useRef<HTMLLIElement>(null);
   const servicesButtonRef = useRef<HTMLButtonElement>(null);
 
+  // Do not render public navbar on admin pages
+  if (pathname?.startsWith('/admin')) {
+    return null;
+  }
+
   // ── Scroll listener ──────────────────────────────────────────────────────
   const handleScroll = useCallback(() => {
     setScrolled(window.scrollY > 15);
