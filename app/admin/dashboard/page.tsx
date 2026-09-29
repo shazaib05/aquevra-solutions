@@ -23,7 +23,7 @@ const navItems = [
   { label: "Dashboard", href: "/admin/dashboard", icon: LayoutDashboard },
   { label: "Inquiries", href: "/admin/inquiries", icon: MessageSquare },
   { label: "Quote Requests", href: "/admin/quotes", icon: FileText },
-  { label: "Services (8)", href: "/admin/services", icon: Briefcase },
+  { label: "Services (4)", href: "/admin/services", icon: Briefcase },
   { label: "Portfolio", href: "/admin/portfolio", icon: TrendingUp },
   { label: "Blog Posts", href: "/admin/blog", icon: FileText },
   { label: "FAQs", href: "/admin/faqs", icon: MessageSquare },
@@ -34,7 +34,7 @@ const navItems = [
 const stats = [
   { label: "Total Inquiries", value: "0", icon: MessageSquare, color: "sky" },
   { label: "Quote Requests", value: "0", icon: FileText, color: "blue" },
-  { label: "Services Active", value: "8", icon: Briefcase, color: "indigo" },
+  { label: "Services Active", value: "4", icon: Briefcase, color: "indigo" },
   { label: "Published Articles", value: "6", icon: TrendingUp, color: "emerald" },
 ];
 
@@ -178,7 +178,7 @@ export default function AdminDashboard() {
                 {[
                   { label: "View All Client Inquiries", href: "/admin/inquiries" },
                   { label: "Review Free Quotation Requests", href: "/admin/quotes" },
-                  { label: "Manage 8 Service Divisions", href: "/admin/services" },
+                  { label: "Manage 4 Service Divisions", href: "/admin/services" },
                   { label: "Update Portfolio Projects", href: "/admin/portfolio" },
                   { label: "Configure Contact & Office Info", href: "/admin/settings" },
                 ].map((action) => (
