@@ -144,20 +144,29 @@ export default function SupportPage() {
     }
 
     try {
+      const cleanPhone = data.phone.replace(/[^0-9+]/g, '');
+      const waLink = `https://wa.me/${cleanPhone.replace(/[^0-9]/g, '')}`;
+
       const payload = {
         access_key: accessKey,
-        subject: `Support Request [${ref}] — ${data.category}`,
+        subject: `[${data.phone}] Support Request [${ref}] — ${data.category}`,
         from_name: data.fullName,
         email: data.email,
+        phone: data.phone,
+        whatsapp: data.phone,
+        whatsapp_chat: waLink,
+        company: data.companyName || 'N/A',
+        category: data.category,
+        preferred_contact: data.contactMethod,
         message: `
-Reference: ${ref}
-Full Name: ${data.fullName}
-Company: ${data.companyName || 'N/A'}
-Phone: ${data.phone}
-Support Category: ${data.category}
-Preferred Contact: ${data.contactMethod}
+PHONE / WHATSAPP: ${data.phone} (${data.contactMethod})
+WHATSAPP CHAT LINK: ${waLink}
+REFERENCE: ${ref}
+CLIENT NAME: ${data.fullName}
+COMPANY: ${data.companyName || 'N/A'}
+SUPPORT CATEGORY: ${data.category}
 
-Problem Description:
+PROBLEM DESCRIPTION:
 ${data.problemDescription}
         `.trim(),
       };

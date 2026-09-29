@@ -107,25 +107,35 @@ export default function QuotePage() {
     }
 
     try {
+      const cleanPhone = data.phone.replace(/[^0-9+]/g, '');
+      const waLink = `https://wa.me/${cleanPhone.replace(/[^0-9]/g, '')}`;
+
       const payload = {
         access_key: siteConfig.forms.web3formsAccessKey,
-        subject: `Free Quote Request [${ref}] — ${data.services.join(', ')}`,
+        subject: `[${data.phone}] Free Quote Request [${ref}] — ${data.services.join(', ')}`,
         from_name: data.fullName,
         email: data.email,
+        phone: data.phone,
+        whatsapp: data.phone,
+        whatsapp_chat: waLink,
+        company: data.companyName || 'N/A',
+        services: data.services.join(', '),
+        budget: data.budget,
+        preferred_contact: data.contactMethod,
         message: `
-Reference: ${ref}
-Full Name: ${data.fullName}
-Company: ${data.companyName || 'N/A'}
-Phone: ${data.phone}
-Services Required: ${data.services.join(', ')}
-Approximate Budget: ${data.budget}
-Preferred Start Date: ${data.startDate || 'Not specified'}
-Preferred Contact: ${data.contactMethod}
+PHONE / WHATSAPP: ${data.phone} (${data.contactMethod})
+WHATSAPP CHAT LINK: ${waLink}
+REFERENCE: ${ref}
+CLIENT NAME: ${data.fullName}
+COMPANY: ${data.companyName || 'N/A'}
+SERVICES: ${data.services.join(', ')}
+BUDGET: ${data.budget}
+START DATE: ${data.startDate || 'Not specified'}
 
-Project Description:
+PROJECT DESCRIPTION:
 ${data.projectDescription}
 
-Additional Requirements:
+ADDITIONAL REQUIREMENTS:
 ${data.additionalRequirements || 'None'}
         `.trim(),
       };

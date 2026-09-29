@@ -135,21 +135,30 @@ export default function ContactPage() {
     }
 
     try {
+      const cleanPhone = data.phone.replace(/[^0-9+]/g, '');
+      const waLink = `https://wa.me/${cleanPhone.replace(/[^0-9]/g, '')}`;
+
       const payload = {
         access_key: accessKey,
-        subject: `New Contact Inquiry [${ref}] — ${data.service}`,
+        subject: `[${data.phone}] Contact Inquiry [${ref}] — ${data.service}`,
         from_name: data.fullName,
         email: data.email,
+        phone: data.phone,
+        whatsapp: data.phone,
+        whatsapp_chat: waLink,
+        company: data.companyName || 'N/A',
+        service: data.service,
+        preferred_contact: data.contactMethod,
         message: `
-Reference: ${ref}
-Full Name: ${data.fullName}
-Company: ${data.companyName || 'N/A'}
-Phone: ${data.phone}
-Service: ${data.service}
-Budget: ${data.budget || 'Not specified'}
-Preferred Contact: ${data.contactMethod}
+PHONE / WHATSAPP: ${data.phone} (${data.contactMethod})
+WHATSAPP CHAT LINK: ${waLink}
+REFERENCE: ${ref}
+CLIENT NAME: ${data.fullName}
+COMPANY: ${data.companyName || 'N/A'}
+SERVICE: ${data.service}
+BUDGET: ${data.budget || 'Not specified'}
 
-Message:
+CUSTOMER MESSAGE:
 ${data.message}
         `.trim(),
       };
