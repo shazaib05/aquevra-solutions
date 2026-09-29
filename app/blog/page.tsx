@@ -18,14 +18,10 @@ import { siteConfig } from '@/lib/site.config';
 // ─── Gradient palettes per category (Light corporate theme) ─────────────────
 
 const categoryGradients: Record<string, string> = {
-  'networking': 'from-blue-50 via-sky-50 to-blue-100',
-  'cctv-security': 'from-indigo-50 via-slate-50 to-indigo-100',
-  'web-software': 'from-emerald-50 via-teal-50 to-emerald-100',
-  'digital-marketing': 'from-pink-50 via-rose-50 to-pink-100',
-  'it-tips': 'from-cyan-50 via-sky-50 to-cyan-100',
+  'web-software': 'from-blue-50 via-sky-50 to-blue-100',
   'graphic-design': 'from-violet-50 via-purple-50 to-violet-100',
-  'business-tech': 'from-indigo-50 via-blue-50 to-indigo-100',
-  'maintenance': 'from-amber-50 via-yellow-50 to-amber-100',
+  'digital-marketing': 'from-pink-50 via-rose-50 to-pink-100',
+  'corporate-printing': 'from-indigo-50 via-slate-50 to-indigo-100',
 };
 
 function getCategoryGradient(categoryId: string): string {
@@ -141,7 +137,7 @@ export default function BlogPage() {
             transition={{ duration: 0.5, delay: 0.15 }}
             className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed"
           >
-            Commercial engineering guides, IT infrastructure best practices, CCTV security compliance, and corporate branding tips from our Karachi team.
+            Web engineering insights, digital marketing strategies, corporate gifting guides, and professional branding &amp; printing tips from our team.
           </motion.p>
         </div>
       </section>
@@ -222,17 +218,17 @@ export default function BlogPage() {
             className="rounded-3xl border border-slate-200 bg-slate-50/80 p-8 sm:p-12 text-center shadow-sm"
           >
             <h2 className="mb-2 text-2xl sm:text-3xl font-extrabold text-slate-900">
-              Have a Specific Engineering Question?
+              Have a Project in Mind?
             </h2>
             <p className="mb-6 text-slate-600 text-sm sm:text-base max-w-lg mx-auto">
-              Our solutions team is on standby to advise on cabling codes, CCTV retention calculation, web architecture, or corporate print runs.
+              Our solutions team is on standby to advise on web architecture, custom software, digital marketing campaigns, or corporate gifting &amp; print runs.
             </p>
             <Link
               href="/contact"
               className="btn-primary"
               aria-label="Contact AQUEVRA SOLUTIONS"
             >
-              Contact Our Engineers
+              Consult Our Team
               <ArrowRight className="h-4 w-4" />
             </Link>
           </motion.div>

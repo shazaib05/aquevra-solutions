@@ -1,6 +1,5 @@
 // ============================================================
-// AQUEVRA SOLUTIONS — PORTFOLIO DATA (PLACEHOLDER)
-// Replace with real project data when available
+// AQUEVRA SOLUTIONS — PORTFOLIO DATA
 // ============================================================
 
 export interface PortfolioItem {
@@ -10,7 +9,7 @@ export interface PortfolioItem {
   categoryId: string;
   description: string;
   tags: string[];
-  image: string; // Path to image or placeholder
+  image: string;
   isPlaceholder: boolean;
   link?: string;
 }
@@ -26,6 +25,98 @@ export const portfolioCategories = [
 export const portfolioItems: PortfolioItem[] = [
   {
     id: "p1",
+    title: "Enterprise Web Application & Portal",
+    category: "Websites & Software",
+    categoryId: "web-software",
+    description:
+      "[SAMPLE CASE] Scalable web portal with real-time analytics, automated invoicing, customer self-service, and responsive UI built on modern frameworks.",
+    tags: ["Web App", "Custom Software", "Next.js", "Cloud Database"],
+    image: "/images/portfolio/placeholder-web.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p2",
+    title: "High-Converting E-Commerce Platform",
+    category: "Websites & Software",
+    categoryId: "web-software",
+    description:
+      "[SAMPLE CASE] Full-featured digital storefront with multi-currency checkout, dynamic product filtering, inventory synchronization, and fast page speeds.",
+    tags: ["E-Commerce", "Payment Gateway", "Product Catalog", "SEO"],
+    image: "/images/portfolio/placeholder-ecom.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p3",
+    title: "Luxury Brand Identity & Design System",
+    category: "Branding & Design",
+    categoryId: "branding-design",
+    description:
+      "[SAMPLE CASE] Comprehensive corporate brand system including logo marks, typography hierarchy, premium business stationery, and vector brand book.",
+    tags: ["Logo Design", "Brand Identity", "Vector Graphics", "Stationery"],
+    image: "/images/portfolio/placeholder-brand.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p4",
+    title: "Social Media Creative & Brand Campaign",
+    category: "Branding & Design",
+    categoryId: "branding-design",
+    description:
+      "[SAMPLE CASE] High-impact visual creative suite for Instagram and LinkedIn, featuring carousel decks, animated promotional posts, and branded templates.",
+    tags: ["Creative Design", "Social Graphics", "Ad Creatives", "Typography"],
+    image: "/images/portfolio/placeholder-social.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p5",
+    title: "Integrated Performance Marketing & SEO",
+    category: "Digital Marketing",
+    categoryId: "digital-marketing",
+    description:
+      "[SAMPLE CASE] Multi-channel digital marketing execution combining high-intent Google Search ads, Meta targeted campaigns, and on-page search engine optimization.",
+    tags: ["Digital Marketing", "SEO", "Google Ads", "Lead Generation"],
+    image: "/images/portfolio/placeholder-marketing.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p6",
+    title: "Executive Corporate Gift Sets & Packaging",
+    category: "Corporate Gifting & Printing",
+    categoryId: "corporate-services",
+    description:
+      "[SAMPLE CASE] Custom branded executive gift hampers, embossed leather organizers, metallic pens, smart mugs, and luxury magnetic packaging boxes.",
+    tags: ["Corporate Gifting", "Custom Packaging", "Merchandise", "Executive Gifts"],
+    image: "/images/portfolio/placeholder-gifting.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p7",
+    title: "Commercial Flex Printing & Shop Signage",
+    category: "Corporate Gifting & Printing",
+    categoryId: "corporate-services",
+    description:
+      "[SAMPLE CASE] High-definition front-lit & back-lit flex banners, 3D acrylic LED channel letters, and architectural outdoor signage solutions.",
+    tags: ["Flex Printing", "Shop Signage", "3D Acrylic Letters", "Banners"],
+    image: "/images/portfolio/placeholder-signage.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p8",
+    title: "Offset Corporate Stationery & Print Materials",
+    category: "Corporate Gifting & Printing",
+    categoryId: "corporate-services",
+    description:
+      "[SAMPLE CASE] Premium offset printing for multi-page corporate profiles, tri-fold brochures, spot UV business cards, and branded presentation folders.",
+    tags: ["Offset Printing", "Brochures", "Business Cards", "Spot UV"],
+    image: "/images/portfolio/placeholder-offset.jpg",
+    isPlaceholder: true,
+  },
+];
+
+// Preserved for future reactivation when IT, Networking, and CCTV services are re-enabled
+export const savedFuturePortfolioItems: PortfolioItem[] = [
+  {
+    id: "p-future-it",
     title: "Office IT Infrastructure Setup",
     category: "IT & Technical",
     categoryId: "it-technical",
@@ -36,7 +127,7 @@ export const portfolioItems: PortfolioItem[] = [
     isPlaceholder: true,
   },
   {
-    id: "p2",
+    id: "p-future-net",
     title: "Structured Network Cabling Project",
     category: "Networking",
     categoryId: "networking",
@@ -47,7 +138,7 @@ export const portfolioItems: PortfolioItem[] = [
     isPlaceholder: true,
   },
   {
-    id: "p3",
+    id: "p-future-cctv",
     title: "Warehouse CCTV Installation",
     category: "CCTV Installations",
     categoryId: "cctv",
@@ -58,62 +149,7 @@ export const portfolioItems: PortfolioItem[] = [
     isPlaceholder: true,
   },
   {
-    id: "p4",
-    title: "Business Website Development",
-    category: "Websites & Software",
-    categoryId: "web-software",
-    description:
-      "[PLACEHOLDER] Custom business website design and development with CMS integration.",
-    tags: ["Website", "Web Development", "CMS", "Business"],
-    image: "/images/portfolio/placeholder-web.jpg",
-    isPlaceholder: true,
-  },
-  {
-    id: "p5",
-    title: "E-Commerce Platform",
-    category: "Websites & Software",
-    categoryId: "web-software",
-    description:
-      "[PLACEHOLDER] Full-featured e-commerce platform with payment integration and inventory management.",
-    tags: ["E-Commerce", "Online Store", "Web App", "Payment Gateway"],
-    image: "/images/portfolio/placeholder-ecom.jpg",
-    isPlaceholder: true,
-  },
-  {
-    id: "p6",
-    title: "Brand Identity Design",
-    category: "Branding & Design",
-    categoryId: "branding-design",
-    description:
-      "[PLACEHOLDER] Complete brand identity package including logo, business cards, and stationery.",
-    tags: ["Logo Design", "Branding", "Identity", "Print Design"],
-    image: "/images/portfolio/placeholder-brand.jpg",
-    isPlaceholder: true,
-  },
-  {
-    id: "p7",
-    title: "Social Media Creative Campaign",
-    category: "Social Media",
-    categoryId: "social-media",
-    description:
-      "[PLACEHOLDER] Monthly social media post design series for Facebook and Instagram.",
-    tags: ["Social Media", "Graphic Design", "Facebook", "Instagram"],
-    image: "/images/portfolio/placeholder-social.jpg",
-    isPlaceholder: true,
-  },
-  {
-    id: "p8",
-    title: "Digital Marketing Campaign",
-    category: "Digital Marketing",
-    categoryId: "digital-marketing",
-    description:
-      "[PLACEHOLDER] Integrated digital marketing campaign including social ads and SEO.",
-    tags: ["Digital Marketing", "SEO", "Ads", "Lead Generation"],
-    image: "/images/portfolio/placeholder-marketing.jpg",
-    isPlaceholder: true,
-  },
-  {
-    id: "p9",
+    id: "p-future-retail",
     title: "Retail Shop CCTV & Networking",
     category: "CCTV Installations",
     categoryId: "cctv",
@@ -121,28 +157,6 @@ export const portfolioItems: PortfolioItem[] = [
       "[PLACEHOLDER] Combined CCTV and networking solution for a retail shop.",
     tags: ["CCTV", "Networking", "Retail", "Security"],
     image: "/images/portfolio/placeholder-retail.jpg",
-    isPlaceholder: true,
-  },
-  {
-    id: "p10",
-    title: "Executive Corporate Gift Sets & Packaging",
-    category: "Corporate Gifting & Printing",
-    categoryId: "corporate-services",
-    description:
-      "[PLACEHOLDER] Custom branded executive gift hampers, embossed leather diaries, metallic pens, and luxury packaging for annual corporate summit.",
-    tags: ["Corporate Gifting", "Custom Packaging", "Merchandise", "Executive Gifts"],
-    image: "/images/portfolio/placeholder-gifting.jpg",
-    isPlaceholder: true,
-  },
-  {
-    id: "p11",
-    title: "Commercial Flex Printing & Shop Signage",
-    category: "Corporate Gifting & Printing",
-    categoryId: "corporate-services",
-    description:
-      "[PLACEHOLDER] High-definition 3D acrylic LED shop signage, front-lit banners, and offset promotional brochures for multi-branch retail launch.",
-    tags: ["Flex Printing", "Shop Signage", "Offset Printing", "Banners"],
-    image: "/images/portfolio/placeholder-signage.jpg",
     isPlaceholder: true,
   },
 ];

@@ -2,23 +2,24 @@ import type { Metadata } from 'next';
 import ServicesClientPage from '@/components/services/ServicesClientPage';
 
 export const metadata: Metadata = {
-  title: 'Services | AQUEVRA SOLUTIONS — Complete Technology & Digital Solutions',
+  title: 'Services | AQUEVRA SOLUTIONS — Web, Software, Design, Marketing & Printing',
   description:
-    'Explore AQUEVRA SOLUTIONS complete range of technology and digital services: IT support, networking, CCTV security, website development, graphic design, digital marketing, and maintenance contracts.',
+    'Explore AQUEVRA SOLUTIONS complete range of core services: Website & Software Solutions, Graphic Design & Creative Services, Digital Marketing, and Corporate Gifting & Printing.',
   keywords: [
-    'IT services Dubai',
-    'CCTV installation',
-    'network setup',
-    'website development',
-    'digital marketing',
-    'graphic design',
-    'IT support',
+    'website development Karachi',
+    'software solutions',
+    'graphic design agency',
+    'digital marketing Karachi',
+    'corporate gifting',
+    'corporate printing',
+    'flex printing',
+    'signage solutions',
     'AQUEVRA SOLUTIONS services',
   ],
   openGraph: {
-    title: 'Complete Technology & Digital Solutions | AQUEVRA SOLUTIONS',
+    title: 'Core Technology & Digital Services | AQUEVRA SOLUTIONS',
     description:
-      '7 core service categories. One trusted technology partner. IT, Networking, CCTV, Web, Design, Marketing & Maintenance.',
+      '4 core service divisions. One trusted technology & creative partner. Web & Software, Graphic Design, Digital Marketing, and Corporate Gifting & Printing.',
     type: 'website',
   },
 };

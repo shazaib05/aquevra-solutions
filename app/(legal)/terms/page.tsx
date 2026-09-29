@@ -65,14 +65,13 @@ export default function TermsOfServicePage() {
               limited to:
             </p>
             <ul>
-              <li>IT Support and Consultation</li>
-              <li>Networking Design, Installation, and Management</li>
-              <li>CCTV and Security System Installation</li>
-              <li>Website Design and Development</li>
-              <li>Custom Software Development</li>
-              <li>Graphic Design and Branding</li>
-              <li>Digital Marketing and Social Media Management</li>
-              <li>Technical Maintenance and Repair</li>
+              <li>Website Design and Custom Web Development</li>
+              <li>Custom Business Software Solutions</li>
+              <li>Graphic Design, Creative and Brand Identity</li>
+              <li>Digital Marketing and Social Media Advertising</li>
+              <li>Corporate Gifting and Executive Merchandise</li>
+              <li>Professional Digital, Offset, and Flex Printing</li>
+              <li>Signage Solutions and Promotional Displays</li>
             </ul>
             <p>
               The specific scope of services for each engagement will be defined in a

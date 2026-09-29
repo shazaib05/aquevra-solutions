@@ -22,7 +22,7 @@ const steps = [
     activities: [
       'Free initial discovery consultation (Karachi on-site or remote)',
       'Operational and technical requirements assessment',
-      'Existing hardware and network topology audit',
+      'Digital assets, branding, and technical stack audit',
       'Goal-setting and performance success criteria definition',
       'Budget parameter and project milestone planning',
       'Key stakeholder alignment and scope consensus',
@@ -38,13 +38,13 @@ const steps = [
     title: 'Planning & Itemised Proposal',
     tagline: 'A clear roadmap, zero surprises.',
     description:
-      'Based on our discovery audit, we create an itemised proposal outlining exact equipment specifications, timelines, deliverables, and transparent pricing. You retain complete clarity before implementation starts.',
+      'Based on our discovery audit, we create an itemised proposal outlining exact project specifications, timelines, deliverables, and transparent pricing. You retain complete clarity before implementation starts.',
     activities: [
       'Comprehensive project scope documentation',
-      'Itemised equipment & service cost breakdown',
+      'Itemised development, creative & production cost breakdown',
       'Realistic timeline with phased deployment milestones',
-      'Hardware, software, and cabling recommendations',
-      'Risk identification and business continuity planning',
+      'Software stack, design language, and print specifications',
+      'Risk identification and growth strategy planning',
       'Formal proposal review session with Q&A',
     ],
     accentClass: 'text-blue-600',
@@ -58,12 +58,12 @@ const steps = [
     title: 'Architecture & Design Strategy',
     tagline: 'Form meets operational function.',
     description:
-      'For creative and digital projects, we develop concepts, wireframes, and corporate branding proofs before production begins. For IT infrastructure, we finalize wiring diagrams and system architectures. Explicit client approval at every stage.',
+      'For creative and digital projects, we develop concepts, wireframes, and corporate branding proofs before production begins. For software, we finalize database schemas and UI/UX prototypes. Explicit client approval at every stage.',
     activities: [
       'Visual mockups, branding proofs, and stationery layouts',
       'Corporate brand and style guide alignment',
       'UI/UX application wireframing & prototyping',
-      'Network routing, CCTV placement, and server topology diagrams',
+      'Database architecture and campaign funnel planning',
       'Content planning and print stock specifications',
       'Client revision and sign-off rounds',
     ],
@@ -75,15 +75,15 @@ const steps = [
   {
     number: '04',
     icon: Cog,
-    title: 'Engineering & Deployment',
-    tagline: 'Expert execution with surgical precision.',
+    title: 'Engineering & Production',
+    tagline: 'Expert execution with precision.',
     description:
-      'Our certified technicians, developers, and print specialists bring the architecture to reality. Whether installing structured networking, developing software, or producing corporate stationery — we operate cleanly and efficiently.',
+      'Our developers, designers, and print specialists bring the architecture to reality. Whether coding custom web applications, crafting marketing creatives, or producing high-definition corporate printing — we operate cleanly and efficiently.',
     activities: [
-      'On-premises physical deployment by certified engineers',
-      'Server, firewall, switch, and camera configuration',
-      'Full-stack software development and API engineering',
+      'Full-stack web application development and API engineering',
       'Corporate printing runs & commercial finishing',
+      'Ad campaign creative production and tracking integration',
+      'Bespoke software features and database integration',
       'Milestone quality inspections at each phase',
       'Frequent status updates to client leadership',
     ],
@@ -98,14 +98,14 @@ const steps = [
     title: 'Testing & Formal Handover',
     tagline: 'Deploy with absolute confidence.',
     description:
-      'Nothing goes live without rigorous validation. We test every connection, security feed, software flow, and printed artifact against industrial benchmarks before handover, ensuring seamless go-live.',
+      'Nothing goes live without rigorous validation. We test every software flow, web responsiveness, ad tracking pixel, and printed artifact against industrial benchmarks before handover.',
     activities: [
-      'End-to-end functionality, throughput, and stress testing',
-      'Security verification and penetration checks',
+      'Cross-browser, mobile responsiveness, and speed testing',
+      'Security verification and code quality checks',
       'User acceptance testing (UAT) with your internal team',
-      'Complete system documentation & administrator access guides',
-      'Formal client sign-off and warranty initiation',
-      'On-site monitored go-live with immediate engineer standby',
+      'Complete administrator documentation and access guides',
+      'Formal client sign-off and launch verification',
+      'Monitored go-live with immediate developer standby',
     ],
     accentClass: 'text-amber-600',
     bgClass: 'bg-amber-50',
@@ -115,17 +115,17 @@ const steps = [
   {
     number: '06',
     icon: HeartHandshake,
-    title: 'Ongoing Maintenance & Support',
-    tagline: 'A long-term technical partnership.',
+    title: 'Ongoing Support & Optimization',
+    tagline: 'A long-term partnership for growth.',
     description:
-      'Our commitment endures well beyond delivery. Through scheduled annual maintenance contracts (AMC), responsive remote helpdesks, and rapid on-site visits, we keep your commercial operations running at peak efficiency.',
+      'Our commitment endures well beyond delivery. Through website maintenance, continuous marketing optimization, print re-orders, and responsive support, we keep your digital presence running at peak performance.',
     activities: [
-      'Post-deployment guarantee and warranty coverage',
-      'Flexible annual maintenance contracts (AMC)',
-      'Remote helpdesk and scheduled on-site maintenance',
-      'Periodic health checks, firmware updates, and reporting',
-      'System expansions and scaling as your business grows',
-      'Guaranteed priority SLA response times',
+      'Post-deployment warranty and bug-fix coverage',
+      'Ongoing website maintenance and performance retainers',
+      'Digital ad campaign reporting and continuous optimization',
+      'Print collateral and corporate gift re-order support',
+      'Feature expansions and software scaling as your business grows',
+      'Guaranteed priority client response times',
     ],
     accentClass: 'text-emerald-600',
     bgClass: 'bg-emerald-50',
@@ -278,7 +278,7 @@ export default function ProcessClientPage() {
             transition={{ duration: 0.5, delay: 0.15 }}
             className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            We adhere to a proven 6-step lifecycle across every commercial engagement — from structured cabling deployments to bespoke software development and brand printing.
+            We adhere to a proven 6-step lifecycle across every commercial engagement — from custom web &amp; software engineering to creative brand design, marketing campaigns, and corporate printing.
           </motion.p>
 
           {/* Stats */}

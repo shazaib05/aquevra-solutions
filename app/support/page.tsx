@@ -52,94 +52,58 @@ type SupportFormData = z.infer<typeof supportSchema>;
 
 const supportCategories = [
   {
-    id: 'it-support',
-    label: 'IT Support & Systems',
-    description: 'General IT troubleshooting, operating systems, and user setups',
-    icon: Cpu,
+    id: 'website-support',
+    label: 'Website Maintenance & Hosting',
+    description: 'SSL renewals, website updates, bug fixes, domain and hosting assistance',
+    icon: Globe,
     color: 'text-sky-700',
     bg: 'bg-sky-50',
     border: 'border-sky-200',
   },
   {
-    id: 'computer-laptop',
-    label: 'Computer & Hardware',
-    description: 'Hardware diagnostics, upgrades, and component replacements',
-    icon: Monitor,
-    color: 'text-indigo-700',
-    bg: 'bg-indigo-50',
-    border: 'border-indigo-200',
-  },
-  {
-    id: 'network',
-    label: 'Network & Wi-Fi',
-    description: 'Connectivity, router configs, VLANs, and LAN/WAN cabling',
-    icon: Network,
+    id: 'software-support',
+    label: 'Custom Software & Web Apps',
+    description: 'Custom portal support, database optimizations, and feature updates',
+    icon: Code2,
     color: 'text-blue-700',
     bg: 'bg-blue-50',
     border: 'border-blue-200',
   },
   {
-    id: 'cctv',
-    label: 'CCTV & Security',
-    description: 'Camera video feeds, DVR/NVR storage, and mobile view errors',
-    icon: Camera,
-    color: 'text-amber-700',
-    bg: 'bg-amber-50',
-    border: 'border-amber-200',
-  },
-  {
-    id: 'website-maintenance',
-    label: 'Website & Hosting',
-    description: 'SSL renewals, website bugs, database fixes, and domain issues',
-    icon: Globe,
-    color: 'text-emerald-700',
-    bg: 'bg-emerald-50',
-    border: 'border-emerald-200',
+    id: 'creative-design',
+    label: 'Graphic Design & Brand Assets',
+    description: 'Design revisions, vector logo files, and social media creative requests',
+    icon: Briefcase,
+    color: 'text-pink-700',
+    bg: 'bg-pink-50',
+    border: 'border-pink-200',
   },
   {
     id: 'corporate-printing',
-    label: 'Corporate & Printing',
-    description: 'Stationery reorders, corporate print runs, and branding assets',
+    label: 'Corporate Printing & Signage',
+    description: 'Digital/offset print reorders, proofing, flex banners, and shop signage',
+    icon: Briefcase,
+    color: 'text-indigo-700',
+    bg: 'bg-indigo-50',
+    border: 'border-indigo-200',
+  },
+  {
+    id: 'corporate-gifting',
+    label: 'Corporate Gifting & Packaging',
+    description: 'Executive gift sets, custom packaging samples, and bulk orders',
     icon: Briefcase,
     color: 'text-purple-700',
     bg: 'bg-purple-50',
     border: 'border-purple-200',
   },
   {
-    id: 'software',
-    label: 'Software Support',
-    description: 'Custom software glitches, ERP/POS errors, and API integration',
-    icon: Code2,
-    color: 'text-pink-700',
-    bg: 'bg-pink-50',
-    border: 'border-pink-200',
-  },
-  {
-    id: 'backup-maintenance',
-    label: 'Backup & Recovery',
-    description: 'Cloud backups, NAS storage verification, and disaster recovery',
-    icon: HardDrive,
-    color: 'text-teal-700',
-    bg: 'bg-teal-50',
-    border: 'border-teal-200',
-  },
-  {
-    id: 'remote-support',
-    label: 'Remote Helpdesk',
-    description: 'Instant remote desktop assistance and software configuration',
-    icon: Wifi,
-    color: 'text-cyan-700',
-    bg: 'bg-cyan-50',
-    border: 'border-cyan-200',
-  },
-  {
-    id: 'onsite-support',
-    label: 'On-Site Engineer Visit',
-    description: 'Scheduled on-premises technical inspection across Karachi',
-    icon: UserCheck,
-    color: 'text-emerald-700',
-    bg: 'bg-emerald-50',
-    border: 'border-emerald-200',
+    id: 'digital-marketing',
+    label: 'Digital Marketing & Ads',
+    description: 'Campaign reporting, Google Ads & Meta ad adjustments, and SEO requests',
+    icon: Globe,
+    color: 'text-orange-700',
+    bg: 'bg-orange-50',
+    border: 'border-orange-200',
   },
 ];
 
@@ -270,7 +234,7 @@ ${data.problemDescription}
               Select Your Technical Discipline
             </h2>
             <p className="text-slate-600 text-sm max-w-xl mx-auto">
-              Our specialists cover physical hardware, network infrastructure, CCTV security, software, and corporate printing.
+              Our specialists cover web applications, custom software, creative design, digital marketing, and corporate printing.
             </p>
           </motion.div>
 
@@ -556,7 +520,7 @@ ${data.problemDescription}
                 <h3 className="font-bold text-amber-900">Urgent Outage?</h3>
               </div>
               <p className="mb-4 text-xs sm:text-sm leading-relaxed text-amber-800">
-                If your production network or CCTV security is down, call our Karachi dispatch center immediately.
+                If your production website, web portal, or active marketing campaign is facing critical downtime, call our team immediately.
               </p>
               <a
                 href={`tel:${siteConfig.contact.phone}`}

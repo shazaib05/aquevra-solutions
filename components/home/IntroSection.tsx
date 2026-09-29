@@ -69,37 +69,37 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: ShieldCheck,
-    title: 'Reliable Technology',
+    title: 'Modern Web & Software',
     description:
-      'We deliver stable, proven technology solutions — from hardware setup to network infrastructure — built to last and perform under real business conditions.',
-    highlights: ['Proven tech stack', 'Tested & certified', 'Zero-downtime focus'],
+      'We deliver robust, high-performance web applications, portals, and custom software — built to scale and perform under real commercial conditions.',
+    highlights: ['Next.js & modern stacks', 'API & cloud integrations', 'Scalable architecture'],
     accentColor: '#0284C7', // sky-600
     iconBg: 'bg-sky-50 text-sky-600 border-sky-100',
   },
   {
     icon: Target,
-    title: 'Business-Focused Solutions',
+    title: 'Business-Focused Design',
     description:
-      'Every solution we build is tailored to your business goals, not generic templates. We listen first, then deliver what actually moves the needle.',
-    highlights: ['Tailored for your goals', 'Scalable delivery', 'ROI-driven approach'],
+      'Every brand identity and design asset we create is tailored to your business goals. We deliver memorable creative work that sets you apart from competitors.',
+    highlights: ['Tailored brand systems', 'Vector print assets', 'UI/UX precision'],
     accentColor: '#2563EB', // blue-600
     iconBg: 'bg-blue-50 text-blue-600 border-blue-100',
   },
   {
     icon: Sparkles,
-    title: 'Creative Digital Services',
+    title: 'Creative Marketing & Ads',
     description:
-      'Beautiful brands and compelling digital content make your business stand out. Our creative team produces design and marketing that captures attention.',
-    highlights: ['Professional branding', 'Strategic marketing', 'Compelling content'],
+      'Engage your target audience and generate qualified leads. Our data-driven digital marketing campaigns maximize your return on ad spend and search visibility.',
+    highlights: ['High-intent Google Ads', 'Meta performance ads', 'Organic SEO growth'],
     accentColor: '#4F46E5', // indigo-600
     iconBg: 'bg-indigo-50 text-indigo-600 border-indigo-100',
   },
   {
     icon: HeadphonesIcon,
-    title: 'Ongoing Technical Support',
+    title: 'Corporate Gifting & Print',
     description:
-      'Technology needs ongoing care. Our support contracts and responsive helpdesk mean you always have a technical partner when something needs attention.',
-    highlights: ['Rapid response', 'AMC contracts', 'Remote & on-site'],
+      'From custom executive gift hampers and merchandise to high-definition flex banners and shop signage — we ensure flawless quality and fast turnaround.',
+    highlights: ['Premium print quality', 'Customized merchandise', 'Fast reliable turnaround'],
     accentColor: '#0D9488', // teal-600
     iconBg: 'bg-teal-50 text-teal-600 border-teal-100',
   },
@@ -233,9 +233,9 @@ export default function IntroSection() {
             className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto"
           >
             AQUEVRA SOLUTIONS is a full-service technology and digital solutions company
-            based in Karachi, Pakistan. We combine deep technical engineering with creative
-            digital capabilities, giving you a single, dependable partner for all your
-            commercial technology, digital, and corporate branding needs.
+            based in Karachi, Pakistan. We combine engineering excellence with creative
+            design and corporate printing capabilities, giving you a single, dependable partner for all your
+            digital, brand, and promotional needs.
           </motion.p>
         </motion.div>
 

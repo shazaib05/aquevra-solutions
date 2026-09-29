@@ -19,21 +19,21 @@ interface Feature {
 const features: Feature[] = [
   {
     icon: <Briefcase className="w-6 h-6 text-sky-600" aria-hidden="true" />,
-    title: 'Complete Service Portfolio',
+    title: 'Integrated Digital & Creative Hub',
     description:
-      'IT, networking, CCTV, web development, software, graphic design, digital marketing, corporate printing, and maintenance — all under one roof with a single point of accountability.',
+      'Web & software development, creative graphic design, digital marketing, corporate gifting, and professional printing — all under one roof with a single point of accountability.',
   },
   {
     icon: <Target className="w-6 h-6 text-blue-600" aria-hidden="true" />,
     title: 'Business-Focused Approach',
     description:
-      'Every solution we deliver is designed around practical business goals — eliminating downtime, increasing operational efficiency, and driving measurable commercial ROI.',
+      'Every solution we deliver is designed around practical business goals — accelerating online growth, enhancing brand authority, and driving measurable commercial ROI.',
   },
   {
     icon: <Headphones className="w-6 h-6 text-indigo-600" aria-hidden="true" />,
-    title: 'Reliable Technical Support',
+    title: 'Dedicated Client Support',
     description:
-      'Fast, dependable remote and on-site support options with scheduled maintenance contracts (AMC) ensure your infrastructure stays operational 24/7.',
+      'Fast, dependable communication and project support ensure your websites, campaigns, and corporate print deliverables are executed seamlessly.',
   },
   {
     icon: <Globe className="w-6 h-6 text-cyan-600" aria-hidden="true" />,
@@ -45,13 +45,13 @@ const features: Feature[] = [
     icon: <Layers className="w-6 h-6 text-teal-600" aria-hidden="true" />,
     title: 'Creative & Technical Synergy',
     description:
-      'Our team bridges certified technical engineers with creative designers, delivering both rock-solid IT architecture and compelling corporate brand identity.',
+      'Our team bridges full-stack software engineers with creative brand designers, delivering both rock-solid digital platforms and compelling corporate brand identity.',
   },
   {
     icon: <Package className="w-6 h-6 text-violet-600" aria-hidden="true" />,
     title: 'Flexible Service Packages',
     description:
-      'Whether you need a single turnkey installation, ongoing technical retainer, or custom enterprise deployment, our service packages scale to your exact needs.',
+      'Whether you need a standalone website, a full brand overhaul, an ongoing marketing retainer, or high-volume corporate printing, our packages scale to your exact needs.',
   },
 ];
 

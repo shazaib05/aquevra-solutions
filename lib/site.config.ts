@@ -9,7 +9,7 @@ export const siteConfig = {
   tagline: "Technology. Digital. Beyond.",
   shortTagline: "Technology. Innovation. Solutions.",
   description:
-    "AQUEVRA SOLUTIONS provides IT support, networking, CCTV installation, website development, software solutions, graphic design, digital marketing, and maintenance services in Karachi, Pakistan.",
+    "AQUEVRA SOLUTIONS provides website development, custom software solutions, graphic design & creative branding, digital marketing, corporate gifting, and professional printing services in Karachi, Pakistan.",
   url: "https://aquevrasolutions.com", // Update when live
   locale: "en_PK",
 
@@ -37,7 +37,7 @@ export const siteConfig = {
   businessHours: {
     weekdays: "Monday – Saturday: 9:00 AM – 7:00 PM",
     weekend: "Sunday: By Appointment",
-    note: "Contact us for urgent support inquiries.",
+    note: "Contact us for inquiries and project consultations.",
   },
 
   // ── Social Media ──────────────────────────────────────────
@@ -51,21 +51,19 @@ export const siteConfig = {
 
   // ── SEO Defaults ──────────────────────────────────────────
   seo: {
-    defaultTitle: "AQUEVRA SOLUTIONS | IT, Networking, CCTV, Web & Digital Services",
+    defaultTitle: "AQUEVRA SOLUTIONS | Web, Software, Design, Marketing & Corporate Printing",
     titleTemplate: "%s | AQUEVRA SOLUTIONS",
     defaultDescription:
-      "AQUEVRA SOLUTIONS provides IT support, networking, CCTV installation, website development, software solutions, graphic design, digital marketing, and maintenance services in Karachi, Pakistan.",
+      "AQUEVRA SOLUTIONS provides website development, custom software solutions, graphic design & creative branding, digital marketing, corporate gifting, and professional printing services in Karachi, Pakistan.",
     keywords: [
-      "IT Services Karachi",
-      "IT Support Karachi",
-      "Networking Solutions Karachi",
-      "CCTV Installation Karachi",
       "Website Development Karachi",
-      "Custom Software Karachi",
+      "Custom Software Solutions Karachi",
       "Graphic Design Karachi",
-      "Digital Marketing Karachi",
-      "Technical Maintenance Karachi",
-      "Business IT Solutions Pakistan",
+      "Digital Marketing Agency Karachi",
+      "Corporate Gifting Karachi",
+      "Corporate Printing Karachi",
+      "Flex & Signage Solutions Karachi",
+      "Business Branding Pakistan",
       "AQUEVRA SOLUTIONS",
     ],
   },

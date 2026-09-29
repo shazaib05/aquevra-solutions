@@ -14,18 +14,18 @@ export const metadata: Metadata = {
   title:
     'AQUEVRA SOLUTIONS | Technology. Digital. Beyond.',
   description:
-    'AQUEVRA SOLUTIONS is your complete technology and digital solutions partner — offering IT support, networking, CCTV, web & software development, graphic design, digital marketing, and ongoing maintenance under one roof.',
+    'AQUEVRA SOLUTIONS is your complete technology and digital solutions partner — offering website & software development, graphic design & creative branding, digital marketing, and corporate gifting & printing under one roof.',
   keywords: [
-    'IT support',
-    'networking solutions',
-    'CCTV installation',
     'web development',
+    'custom software solutions',
     'graphic design',
     'digital marketing',
-    'software development',
+    'corporate gifting',
+    'corporate printing',
+    'flex printing',
+    'signage solutions',
     'AQUEVRA SOLUTIONS',
-    'technology company',
-    'business IT support',
+    'technology company Karachi',
   ],
   authors: [{ name: 'AQUEVRA SOLUTIONS' }],
   creator: 'AQUEVRA SOLUTIONS',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     title: 'AQUEVRA SOLUTIONS | Technology. Digital. Beyond.',
     description:
-      'Complete technology and digital solutions partner — IT, networking, CCTV, web, design, and marketing under one roof.',
+      'Complete technology and digital solutions partner — web development, custom software, creative branding, digital marketing, and corporate printing under one roof.',
     siteName: 'AQUEVRA SOLUTIONS',
     images: [
       {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'AQUEVRA SOLUTIONS | Technology. Digital. Beyond.',
     description:
-      'Complete technology and digital solutions — IT, networking, CCTV, web, design, and marketing.',
+      'Complete technology and digital solutions — web development, custom software, creative branding, digital marketing, and corporate printing.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -72,7 +72,7 @@ const organizationSchema = {
   '@type': 'Organization',
   name: 'AQUEVRA SOLUTIONS',
   description:
-    'Complete technology and digital solutions partner offering IT support, networking, CCTV, web development, graphic design, and digital marketing.',
+    'Complete technology and digital solutions partner offering website development, custom software, graphic design, digital marketing, and corporate printing.',
   url: 'https://aquevrasolutions.com',
   logo: 'https://aquevrasolutions.com/logo.png',
   sameAs: [],
@@ -84,7 +84,7 @@ const organizationSchema = {
   offers: {
     '@type': 'AggregateOffer',
     description:
-      'IT & Technical Services, Networking & Infrastructure, CCTV & Security Solutions, Website & Software Solutions, Graphic Design & Creative Services, Digital Marketing, Maintenance & Support',
+      'Website & Software Solutions, Graphic Design & Creative Services, Digital Marketing, Corporate Gifting & Printing',
   },
 };
 

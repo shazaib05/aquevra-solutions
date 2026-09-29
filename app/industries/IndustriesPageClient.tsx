@@ -51,290 +51,290 @@ const industries: Industry[] = [
   {
     icon: <Building2 className="w-6 h-6 text-sky-600" aria-hidden="true" />,
     name: 'Corporate Offices',
-    tagline: 'Enterprise-grade technology for high-performance commercial workplaces.',
+    tagline: 'Premier digital presence, custom software, and executive corporate gifting.',
     badge: 'Enterprise',
     iconBg: 'bg-sky-50 border-sky-100',
     services: [
       {
-        label: 'IT Support & AMC',
+        label: 'Corporate Gifting & Welcome Kits',
         description:
-          'Continuous system maintenance, priority support SLAs, and scheduled technical visits across Karachi.',
+          'Executive gift hampers, embossed leather organizers, metallic pens, and luxury employee onboarding packages.',
       },
       {
-        label: 'Networking & Structured Cabling',
+        label: 'Executive Stationery & Print',
         description:
-          'High-speed LAN/WAN, Cat6A cabling, enterprise firewalls, secure VPNs, and managed commercial Wi-Fi.',
+          'Premium visiting cards, letterheads, presentation folders, corporate profiles, and official envelopes.',
       },
       {
-        label: 'CCTV & Access Control',
+        label: 'Web & Internal Portals',
         description:
-          'High-definition IP surveillance, biometric access doors, NVR storage, and off-site cloud recording.',
+          'Modern corporate websites, employee intranets, document management portals, and cloud web applications.',
       },
       {
-        label: 'Corporate Branding & Printing',
+        label: 'LinkedIn & Digital Branding',
         description:
-          'Premium stationery, business profiles, executive cards, employee ID credentials, and brand assets.',
+          'B2B thought leadership marketing, corporate identity guidelines, and strategic digital campaigns.',
       },
     ],
   },
   {
     icon: <Briefcase className="w-6 h-6 text-blue-600" aria-hidden="true" />,
     name: 'Small & Medium Businesses',
-    tagline: 'All the digital and technical solutions you need to compete and scale.',
+    tagline: 'All the digital, creative, and branding solutions you need to compete and scale.',
     badge: 'Commercial',
     iconBg: 'bg-blue-50 border-blue-100',
     services: [
       {
-        label: 'Full IT Setup & Workstations',
+        label: 'Custom Business Websites',
         description:
-          'Turnkey workstation provisioning, software licensing, backup automation, and helpdesk support.',
+          'Responsive corporate websites engineered with Next.js, optimized for mobile conversion and lightning speed.',
       },
       {
-        label: 'Networking & CCTV Security',
+        label: 'Brand Identity & Graphic Design',
         description:
-          'Reliable office network switches and multi-camera surveillance guarding inventory and staff.',
+          'Logo design, color systems, visiting cards, social media post templates, and marketing collateral.',
       },
       {
-        label: 'Web & Online Presence',
+        label: 'Digital Marketing & SEO',
         description:
-          'Corporate websites, professional business email setup, Google Workspace, and cloud hosting.',
+          'Google business search ranking, Meta advertising, targeted lead generation, and social media management.',
       },
       {
-        label: 'Marketing Collateral',
+        label: 'Promotional Printing & Banners',
         description:
-          'Brochures, company catalogs, business cards, roll-up banners, and promotional merchandise.',
+          'Roll-up standees, flex banners, shop signage, marketing flyers, and product catalogues.',
       },
     ],
   },
   {
     icon: <Store className="w-6 h-6 text-indigo-600" aria-hidden="true" />,
     name: 'Retail Shops & Showrooms',
-    tagline: 'Fast point-of-sale systems and high-definition store security.',
+    tagline: 'Vibrant storefront signage, premium packaging, and localized digital promotions.',
     badge: 'Retail',
     iconBg: 'bg-indigo-50 border-indigo-100',
     services: [
       {
-        label: 'POS IT & Hardware Support',
+        label: '3D Acrylic & LED Signage',
         description:
-          'Barcode scanner, receipt printer, thermal printer, and POS system stability support.',
+          'Custom illuminated shop fascias, 3D acrylic channel letters, neon displays, and showroom signboards.',
       },
       {
-        label: 'Loss-Prevention CCTV',
+        label: 'Flex Banners & Promotional Displays',
         description:
-          'Cash-counter zoom cameras, wide-angle customer aisles, and live mobile phone monitoring.',
+          'High-resolution front-lit & back-lit flex printing, window graphics, promotional posters, and standees.',
       },
       {
-        label: 'Customer Wi-Fi Networks',
+        label: 'Product Packaging & Shopping Bags',
         description:
-          'Isolated guest Wi-Fi captive portals and secure POS internal business networking.',
+          'Custom printed paper bags, branded shopping boxes, barcode labels, and product hangtags.',
       },
       {
-        label: 'Packaging & In-Store Displays',
+        label: 'Local Social Media Marketing',
         description:
-          'Shopping bags, branded boxes, product labels, price tags, and promotional acrylic displays.',
+          'Localized Instagram and Facebook promotional campaigns driving foot traffic to your physical store.',
       },
     ],
   },
   {
     icon: <ShoppingCart className="w-6 h-6 text-teal-600" aria-hidden="true" />,
     name: 'E-Commerce & Brands',
-    tagline: 'High-converting online stores, branding, and performance campaigns.',
+    tagline: 'High-converting online stores, premium unboxing, and performance ad campaigns.',
     badge: 'Digital Commerce',
     iconBg: 'bg-teal-50 border-teal-100',
     services: [
       {
-        label: 'E-Commerce Development',
+        label: 'Custom E-Commerce Development',
         description:
-          'Custom online stores, payment gateway integration, inventory synchronization, and fast hosting.',
+          'Feature-rich online shopping portals, payment gateway integrations, real-time inventory management, and fast hosting.',
       },
       {
-        label: 'Performance Ads & SEO',
+        label: 'Performance Ads & Funnel SEO',
         description:
-          'Targeted Meta & Google ad campaigns, organic search optimization, and conversion rate audits.',
+          'Targeted Meta & Google ad campaigns, conversion tracking, retargeting funnels, and organic search optimization.',
       },
       {
-        label: 'Product Packaging & Labels',
+        label: 'Custom Mailer Packaging & Labels',
         description:
-          'Custom mailer boxes, product label rolls, tissue wraps, unboxing cards, and stickers.',
+          'Custom printed rigid mailer boxes, unboxing tissue wraps, product sticker labels, and thank-you cards.',
       },
       {
-        label: 'Cloud Infrastructure & Security',
+        label: 'Social Media Creative Production',
         description:
-          'SSL hardening, automated daily backups, cloud database monitoring, and server scaling.',
+          'High-impact social media carousel designs, promotional story animations, and seasonal discount banners.',
       },
     ],
   },
   {
     icon: <GraduationCap className="w-6 h-6 text-amber-600" aria-hidden="true" />,
     name: 'Educational Institutions',
-    tagline: 'Campus-wide connectivity, computer labs, and student safety.',
+    tagline: 'Modern institutional portals, durable student credentials, and event printing.',
     badge: 'Education',
     iconBg: 'bg-amber-50 border-amber-100',
     services: [
       {
-        label: 'Computer Lab Engineering',
+        label: 'Institutional Websites & Portals',
         description:
-          'Multi-terminal workstation deployment, server virtualization, and student access management.',
+          'School, college, and university portals featuring admission forms, course catalogues, and event announcements.',
       },
       {
-        label: 'Campus Wi-Fi & LAN',
+        label: 'PVC Student ID Cards & Lanyards',
         description:
-          'High-density access points handling hundreds of simultaneous devices across classrooms.',
+          'High-durability laminated PVC student and faculty ID cards with custom branded printed lanyards.',
       },
       {
-        label: 'Campus CCTV Surveillance',
+        label: 'Certificates & Degree Folders',
         description:
-          'Comprehensive gate, perimeter, corridor, and playground safety surveillance systems.',
+          'Foil-stamped academic certificates, graduation diplomas, degree presentation folders, and award plaques.',
       },
       {
-        label: 'ID Cards & Certificates',
+        label: 'Prospectus, Books & Brochures',
         description:
-          'High-durability PVC student ID cards, RFID cards, certificates, and institutional brochures.',
+          'Premium full-color annual prospectus books, course guides, event brochures, and campus banners.',
       },
     ],
   },
   {
     icon: <UtensilsCrossed className="w-6 h-6 text-rose-600" aria-hidden="true" />,
     name: 'Restaurants & Hospitality',
-    tagline: 'Kitchen display systems, guest Wi-Fi, and enticing menu branding.',
+    tagline: 'Appetizing visual branding, durable menu printing, and localized food marketing.',
     badge: 'Hospitality',
     iconBg: 'bg-rose-50 border-rose-100',
     services: [
       {
-        label: 'Kitchen & Order Routing IT',
+        label: 'Menu Design & Durable Printing',
         description:
-          'Reliable KDS screen setups, thermal kitchen ticket printers, and order station cabling.',
+          'Waterproof laminated food menus, leather menu covers, table tent cards, and QR code digital menus.',
       },
       {
-        label: 'Dine-In CCTV Security',
+        label: 'Branded Food Packaging',
         description:
-          'Cash register monitoring, kitchen cleanliness monitoring, and dining room safety coverage.',
-      },
-      {
-        label: 'Menu Design & Printing',
-        description:
-          'Waterproof laminated menus, table tent cards, take-away brochures, and branded food packaging.',
+          'Custom printed take-away boxes, paper bags, burger wrappers, cup sleeves, and tamper-evident delivery stickers.',
       },
       {
         label: 'Social Media & Local Marketing',
         description:
-          'Instagram food photography, localized Karachi promotions, and Google Maps optimization.',
+          'Engaging Instagram food creatives, localized Karachi ad promotions, and seasonal festive campaigns.',
+      },
+      {
+        label: 'Online Ordering Websites',
+        description:
+          'Fast, mobile-optimized restaurant ordering websites with menu management and WhatsApp ordering integration.',
       },
     ],
   },
   {
     icon: <Warehouse className="w-6 h-6 text-orange-600" aria-hidden="true" />,
     name: 'Warehouses & Logistics',
-    tagline: 'Perimeter security, industrial Wi-Fi, and barcode tracking.',
+    tagline: 'Custom management software, compliance signage, and high-volume shipping labels.',
     badge: 'Logistics',
     iconBg: 'bg-orange-50 border-orange-100',
     services: [
       {
-        label: 'Long-Range Perimeter CCTV',
+        label: 'Custom Inventory & Dispatch Software',
         description:
-          'Night-vision PTZ cameras, loading dock monitoring, gate tracking, and vehicle ANPR.',
+          'Bespoke web applications for stock management, parcel tracking, customer delivery status, and order reconciliation.',
       },
       {
-        label: 'Industrial Wi-Fi Coverage',
+        label: 'Industrial & Safety Signage',
         description:
-          'High-ceiling directional antennas enabling continuous connectivity for handheld barcode scanners.',
+          'Reflective safety signage, hazard boards, warehouse aisle markers, and high-durability floor graphic stickers.',
       },
       {
-        label: 'Biometric Access Control',
+        label: 'Thermal Shipping Labels & Roll Printing',
         description:
-          'Automated turnstiles, biometric fingerprint/facial recognition, and shift attendance tracking.',
+          'High-volume thermal barcode shipping labels, dispatch slips, invoice books, and delivery challans.',
       },
       {
-        label: 'Shipping Labels & Stationery',
+        label: 'Corporate Branding & Uniforms',
         description:
-          'Barcode thermal labels, delivery challan books, invoices, and warehouse compliance signage.',
+          'Branded employee safety vests, polo shirts, vehicle flex graphics, and operational stationery.',
       },
     ],
   },
   {
     icon: <HeartPulse className="w-6 h-6 text-emerald-600" aria-hidden="true" />,
     name: 'Healthcare Facilities',
-    tagline: 'Reliable, secure technology for patient-first clinics and hospitals.',
+    tagline: 'Patient-centric digital booking portals, doctor stationery, and clean signage.',
     badge: 'Healthcare',
     iconBg: 'bg-emerald-50 border-emerald-100',
     services: [
       {
-        label: 'Clinical IT Systems & Records',
+        label: 'Doctor & Clinic Appointment Websites',
         description:
-          'Workstation setup, medical records storage stability, and diagnostic printer maintenance.',
+          'Clean, trustworthy clinic websites featuring doctor profiles, appointment booking forms, and service guides.',
       },
       {
-        label: 'Patient-Isolated Networking',
+        label: 'Medical Stationery & Report Folders',
         description:
-          'Segregated VLANs isolating sensitive diagnostic machinery from public waiting room Wi-Fi.',
+          'Custom prescription pads, laboratory report envelopes, patient case files, and appointment appointment cards.',
       },
       {
-        label: 'Discreet Security Surveillance',
+        label: 'Hospital Directional Signage',
         description:
-          'Reception, emergency entry, pharmacy storage, and perimeter security with strict audit trails.',
+          'Acrylic department door signs, directional wayfinding boards, emergency exit signage, and reception displays.',
       },
       {
-        label: 'Patient Portals & Print Materials',
+        label: 'Healthcare Brand Identity & Marketing',
         description:
-          'Doctor appointment websites, patient file folders, prescription pads, and laboratory report envelopes.',
+          'Patient education brochures, awareness flyers, social media wellness creatives, and localized Google search ads.',
       },
     ],
   },
   {
     icon: <Rocket className="w-6 h-6 text-violet-600" aria-hidden="true" />,
     name: 'Startups & Ventures',
-    tagline: 'Launch rapidly with world-class identity, software, and marketing.',
+    tagline: 'Launch rapidly with world-class identity, SaaS web applications, and growth campaigns.',
     badge: 'Startups',
     iconBg: 'bg-violet-50 border-violet-100',
     services: [
       {
-        label: 'Brand Identity & Guidelines',
+        label: 'Brand Identity & Pitch Decks',
         description:
-          'Comprehensive brand packages: logo, typographic scale, corporate deck, and business stationery.',
+          'Complete brand architecture: logo guidelines, typography, investor pitch presentation decks, and stationery.',
       },
       {
         label: 'Web & SaaS Engineering',
         description:
-          'Next.js web applications, responsive customer portals, and database infrastructure.',
+          'High-performance Next.js web applications, responsive customer portals, database infrastructure, and API engineering.',
       },
       {
-        label: 'Workspace & Cloud Setup',
+        label: 'Targeted Growth & Paid Ads',
         description:
-          'Company domains, enterprise email, GitHub / Slack integrations, and cloud storage.',
+          'Data-driven client acquisition campaigns across Meta, Google, and LinkedIn with continuous conversion optimization.',
       },
       {
-        label: 'Growth Marketing',
+        label: 'Branded Launch Swag & Merchandise',
         description:
-          'SEO setup, launch strategy, social media channels, and targeted paid lead generation.',
+          'Custom printed startup t-shirts, branded hoodies, premium laptop stickers, notebooks, and executive gifts.',
       },
     ],
   },
   {
     icon: <Home className="w-6 h-6 text-cyan-600" aria-hidden="true" />,
-    name: 'Homes & Individuals',
-    tagline: 'Safe, smart, and seamlessly connected residences.',
-    badge: 'Residential',
+    name: 'Commercial & Consumer Brands',
+    tagline: 'High-impact packaging, retail flex displays, and omni-channel digital presence.',
+    badge: 'Consumer Brands',
     iconBg: 'bg-cyan-50 border-cyan-100',
     services: [
       {
-        label: 'Home CCTV Installation',
+        label: 'Custom Retail Packaging & Boxes',
         description:
-          'Smart indoor and perimeter cameras with instant mobile alert notifications and playback.',
+          'Luxury rigid boxes, corrugated carton packaging, cosmetic containers, and embossed product sleeve labels.',
       },
       {
-        label: 'Mesh Wi-Fi Coverage',
+        label: 'Outdoor Billboards & Flex Banners',
         description:
-          'Multi-story mesh Wi-Fi eliminating dead zones across large villas, townhouses, and apartments.',
+          'Large-format outdoor flex printing, promotional hoardings, building wraps, and exhibition display booths.',
       },
       {
-        label: 'Personal IT Troubleshooting',
+        label: 'Digital Marketing & Influencer Creative',
         description:
-          'Desktop and laptop repair, data recovery, OS reinstallation, and hardware upgrades.',
+          'Multi-channel brand awareness campaigns, product launch social media campaigns, and Google Shopping promotion.',
       },
       {
-        label: 'Home Office IT Setup',
+        label: 'Corporate Gifting & Promotional Swag',
         description:
-          'Dual monitor setups, secure corporate VPN configuration, and dedicated backup drives.',
+          'Custom branded corporate giveaways, promotional merchandise, personalized mugs, diaries, and executive kits.',
       },
     ],
   },

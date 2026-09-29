@@ -52,7 +52,7 @@ export default function PortfolioClientPage() {
             transition={{ duration: 0.5, delay: 0.15 }}
             className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed"
           >
-            Explore representative implementations across enterprise IT networking, CCTV surveillance, custom web applications, branding, and corporate print materials.
+            Explore representative implementations across custom web applications, creative branding, digital marketing campaigns, and corporate print &amp; gifting materials.
           </motion.p>
         </div>
       </section>

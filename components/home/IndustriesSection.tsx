@@ -24,52 +24,52 @@ const industries: Industry[] = [
   {
     icon: <Building2 className="w-5 h-5 text-sky-600" aria-hidden="true" />,
     name: 'Corporate Offices',
-    services: ['IT Support & AMC', 'Networking', 'CCTV Security'],
+    services: ['Corporate Gifting', 'Brand Stationery', 'Web Portals'],
   },
   {
     icon: <Briefcase className="w-5 h-5 text-blue-600" aria-hidden="true" />,
     name: 'Small & Medium Businesses',
-    services: ['Full IT Setup', 'Web & Marketing', 'CCTV & Networking'],
+    services: ['Websites & Software', 'Branding & Design', 'Digital Marketing'],
   },
   {
     icon: <Store className="w-5 h-5 text-indigo-600" aria-hidden="true" />,
     name: 'Retail Shops',
-    services: ['POS IT Support', 'CCTV & Surveillance', 'Digital Marketing'],
+    services: ['Shop Signage & Displays', 'Flex Banners', 'Social Media Ads'],
   },
   {
     icon: <ShoppingCart className="w-5 h-5 text-teal-600" aria-hidden="true" />,
     name: 'E-Commerce',
-    services: ['Website & Hosting', 'SEO & Performance Ads', 'Business Email'],
+    services: ['Custom E-Commerce', 'Performance Ads & SEO', 'Packaging & Labels'],
   },
   {
     icon: <GraduationCap className="w-5 h-5 text-amber-600" aria-hidden="true" />,
     name: 'Educational Institutions',
-    services: ['IT Infrastructure', 'Campus Networking', 'CCTV & Safety'],
+    services: ['ID Cards & Certificates', 'Brochures & Catalogues', 'Web Development'],
   },
   {
     icon: <UtensilsCrossed className="w-5 h-5 text-rose-600" aria-hidden="true" />,
     name: 'Restaurants & Hospitality',
-    services: ['CCTV Systems', 'Wi-Fi & Networking', 'Digital Branding'],
+    services: ['Menu & Brochure Printing', 'Digital Marketing', 'Brand Identity'],
   },
   {
     icon: <Warehouse className="w-5 h-5 text-orange-600" aria-hidden="true" />,
     name: 'Warehouses & Logistics',
-    services: ['CCTV & Access Control', 'Networking & AMC', 'IT Maintenance'],
+    services: ['Packaging & Labels', 'Signage Solutions', 'Custom Software'],
   },
   {
     icon: <HeartPulse className="w-5 h-5 text-emerald-600" aria-hidden="true" />,
     name: 'Healthcare Facilities',
-    services: ['Secure IT Systems', 'CCTV & Networking', 'Portal Websites'],
+    services: ['Patient Portals & Websites', 'Corporate Stationery', 'Digital Marketing'],
   },
   {
     icon: <Rocket className="w-5 h-5 text-violet-600" aria-hidden="true" />,
     name: 'Startups & Ventures',
-    services: ['Branding & Identity', 'Hosting & Cloud Setup', 'Custom Software'],
+    services: ['Brand Identity Design', 'Web & SaaS Development', 'Lead Generation Ads'],
   },
   {
     icon: <Home className="w-5 h-5 text-cyan-600" aria-hidden="true" />,
-    name: 'Homes & Individuals',
-    services: ['Home CCTV', 'Mesh Wi-Fi Setup', 'Personal IT Support'],
+    name: 'Commercial Brands',
+    services: ['Promotional Merchandise', 'Offset & Digital Printing', 'Social Ads'],
   },
 ];
 

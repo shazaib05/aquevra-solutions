@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
-  Monitor, Network, Camera, Globe, Palette, TrendingUp, Wrench, Briefcase,
+  Globe, Palette, TrendingUp, Gift, Sparkles,
   ExternalLink, AlertCircle,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -12,52 +12,40 @@ import type { PortfolioItem } from '@/lib/portfolio.data';
 
 // ── Category icon map ─────────────────────────────────────────────────────
 const categoryIconMap: Record<string, React.ComponentType<any>> = {
-  'it-technical':     Monitor,
-  'networking':       Network,
-  'cctv':            Camera,
-  'web-software':    Globe,
-  'branding-design': Palette,
-  'social-media':    Palette,
-  'digital-marketing': TrendingUp,
-  'corporate-services': Briefcase,
-  default:           Wrench,
+  'web-software':       Globe,
+  'branding-design':    Palette,
+  'social-media':       Palette,
+  'digital-marketing':  TrendingUp,
+  'corporate-services': Gift,
+  default:              Sparkles,
 };
 
 // ── Category gradient map (Light Mode Calibrated) ─────────────────────────
 const categoryGradientMap: Record<string, string> = {
-  'it-technical':     'from-sky-50 to-blue-100',
-  'networking':       'from-blue-50 to-indigo-100',
-  'cctv':            'from-indigo-50 to-slate-100',
-  'web-software':    'from-emerald-50 to-teal-100',
-  'branding-design': 'from-purple-50 to-pink-100',
-  'social-media':    'from-rose-50 to-orange-100',
-  'digital-marketing': 'from-amber-50 to-orange-100',
-  'corporate-services': 'from-indigo-50 to-sky-100',
-  default:           'from-slate-50 to-slate-100',
+  'web-software':       'from-emerald-50 to-teal-100',
+  'branding-design':    'from-purple-50 to-pink-100',
+  'social-media':       'from-rose-50 to-orange-100',
+  'digital-marketing':  'from-amber-50 to-orange-100',
+  'corporate-services': 'from-sky-50 to-indigo-100',
+  default:              'from-slate-50 to-slate-100',
 };
 
 const categoryIconColorMap: Record<string, string> = {
-  'it-technical':     'text-sky-600',
-  'networking':       'text-blue-600',
-  'cctv':            'text-indigo-600',
-  'web-software':    'text-emerald-600',
-  'branding-design': 'text-purple-600',
-  'social-media':    'text-rose-600',
-  'digital-marketing': 'text-amber-600',
-  'corporate-services': 'text-indigo-600',
-  default:           'text-slate-600',
+  'web-software':       'text-emerald-600',
+  'branding-design':    'text-purple-600',
+  'social-media':       'text-rose-600',
+  'digital-marketing':  'text-amber-600',
+  'corporate-services': 'text-sky-600',
+  default:              'text-slate-600',
 };
 
 const categoryBadgeMap: Record<string, string> = {
-  'it-technical':     'bg-sky-50 text-sky-700 border-sky-200',
-  'networking':       'bg-blue-50 text-blue-700 border-blue-200',
-  'cctv':            'bg-indigo-50 text-indigo-700 border-indigo-200',
-  'web-software':    'bg-emerald-50 text-emerald-700 border-emerald-200',
-  'branding-design': 'bg-purple-50 text-purple-700 border-purple-200',
-  'social-media':    'bg-rose-50 text-rose-700 border-rose-200',
-  'digital-marketing': 'bg-amber-50 text-amber-700 border-amber-200',
-  'corporate-services': 'bg-indigo-50 text-indigo-700 border-indigo-200',
-  default:           'bg-slate-100 text-slate-700 border-slate-200',
+  'web-software':       'bg-emerald-50 text-emerald-700 border-emerald-200',
+  'branding-design':    'bg-purple-50 text-purple-700 border-purple-200',
+  'social-media':       'bg-rose-50 text-rose-700 border-rose-200',
+  'digital-marketing':  'bg-amber-50 text-amber-700 border-amber-200',
+  'corporate-services': 'bg-sky-50 text-sky-700 border-sky-200',
+  default:              'bg-slate-100 text-slate-700 border-slate-200',
 };
 
 interface PortfolioCardProps {

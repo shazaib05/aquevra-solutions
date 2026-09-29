@@ -43,7 +43,7 @@ export default function ServiceFilter({
             type="search"
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            placeholder="Search services (e.g. Printing, CCTV, SEO, Website…)"
+            placeholder="Search services (e.g. Website, Branding, SEO, Flex Printing…)"
             aria-label="Search services"
             className={cn(
               'w-full pl-10 pr-10 py-2.5 rounded-xl text-sm text-slate-900 placeholder-slate-400',

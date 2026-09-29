@@ -9,17 +9,17 @@ import ServiceFilter from '@/components/services/ServiceFilter';
 import ServiceDetail from '@/components/services/ServiceDetail';
 
 const STATS = [
-  { label: 'Service Divisions', value: '8' },
-  { label: 'Specialised Offerings', value: '100+' },
+  { label: 'Service Divisions', value: '4' },
+  { label: 'Specialised Offerings', value: '50+' },
   { label: 'Years Experience', value: '5+' },
   { label: 'Client Satisfaction', value: '99%' },
 ];
 
 const USP = [
-  'Single point of contact for all technology & corporate needs',
-  'Certified IT engineers and creative design professionals',
+  'Single point of contact for all digital, creative & corporate needs',
+  'Certified software engineers, creative designers & print specialists',
   'Transparent itemised pricing with no hidden charges',
-  'Prompt Karachi on-site & nationwide remote support',
+  'High quality standards & fast turnaround times',
 ];
 
 export default function ServicesClientPage() {
@@ -98,8 +98,8 @@ export default function ServicesClientPage() {
             transition={{ duration: 0.5, delay: 0.15 }}
             className="text-slate-600 text-base sm:text-lg text-center max-w-2xl mx-auto mb-8"
           >
-            From physical infrastructure and CCTV security to bespoke software development and corporate printing — AQUEVRA SOLUTIONS delivers{' '}
-            <span className="text-slate-900 font-semibold">8 comprehensive divisions</span> under one roof.
+            From custom web and software applications to creative branding and corporate printing — AQUEVRA SOLUTIONS delivers{' '}
+            <span className="text-slate-900 font-semibold">4 comprehensive divisions</span> under one roof.
           </motion.p>
 
           {/* USP chips */}

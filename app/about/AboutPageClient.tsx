@@ -81,40 +81,40 @@ const coreValues = [
     icon: <TrendingUp className="w-5 h-5 text-amber-600" aria-hidden="true" />,
     title: 'Continuous Evolution',
     description:
-      'We continually upgrade our engineering practices, hardware certifications, and digital skillsets to keep our clients ahead.',
+      'We continually upgrade our engineering practices, digital skillsets, and creative production standards to keep our clients ahead.',
   },
 ];
 
 const whyReasons = [
   {
     icon: <Briefcase className="w-5 h-5 text-sky-600" aria-hidden="true" />,
-    title: '8 Complete Service Divisions',
-    desc: 'IT, networking, CCTV, web apps, custom software, corporate printing, design, and AMC — all under one roof.',
+    title: '4 Core Specialized Divisions',
+    desc: 'Website & software solutions, creative graphic design, digital marketing, and corporate gifting & printing — all under one roof.',
   },
   {
     icon: <Target className="w-5 h-5 text-blue-600" aria-hidden="true" />,
     title: 'Business-Focused Engineering',
-    desc: 'Turnkey solutions engineered around commercial operational goals, not generic off-the-shelf templates.',
+    desc: 'Turnkey digital and creative solutions engineered around commercial operational goals, not generic templates.',
   },
   {
     icon: <Headphones className="w-5 h-5 text-indigo-600" aria-hidden="true" />,
-    title: 'Dependable Support Desk',
-    desc: 'Rapid Karachi on-site dispatched engineers and remote helpdesk assistance whenever issues emerge.',
+    title: 'Dependable Client Care',
+    desc: 'Rapid project communication, dedicated account management, and responsive technical support whenever required.',
   },
   {
     icon: <Globe className="w-5 h-5 text-teal-600" aria-hidden="true" />,
     title: 'Modern Digital Ecosystem',
-    desc: 'High-performance web applications, SEO marketing, and digital experiences built for competitive advantage.',
+    desc: 'High-performance web applications, targeted performance marketing, and digital brand experiences built for growth.',
   },
   {
     icon: <Layers className="w-5 h-5 text-purple-600" aria-hidden="true" />,
     title: 'Technical & Creative Synergy',
-    desc: 'Certified IT engineers working alongside creative designers for unified corporate excellence.',
+    desc: 'Full-stack software engineers working alongside brand designers for unified corporate excellence.',
   },
   {
     icon: <Package className="w-5 h-5 text-rose-600" aria-hidden="true" />,
     title: 'Scalable Corporate Packages',
-    desc: 'Flexible maintenance contracts (AMC), project-based milestones, and bespoke enterprise agreements.',
+    desc: 'Flexible retainers, milestone-based digital projects, and high-volume corporate printing agreements.',
   },
 ];
 
@@ -128,15 +128,15 @@ const industriesList = [
   { icon: <Warehouse className="w-5 h-5 text-orange-600" aria-hidden="true" />, name: 'Warehouses & Logistics' },
   { icon: <HeartPulse className="w-5 h-5 text-emerald-600" aria-hidden="true" />, name: 'Healthcare & Clinics' },
   { icon: <Rocket className="w-5 h-5 text-purple-600" aria-hidden="true" />, name: 'Startups & Tech' },
-  { icon: <Home className="w-5 h-5 text-cyan-600" aria-hidden="true" />, name: 'Homes & Individuals' },
+  { icon: <Home className="w-5 h-5 text-cyan-600" aria-hidden="true" />, name: 'Commercial Brands' },
 ];
 
 const teamPlaceholders = [
   {
     initials: 'AS',
-    name: 'Technical Solutions Director',
-    role: 'Infrastructure & Security Lead',
-    bio: 'Oversees network architecture, enterprise CCTV deployments, and mission-critical server maintenance for corporate clients.',
+    name: 'Digital Marketing & Growth Lead',
+    role: 'Growth & Strategy Lead',
+    bio: 'Oversees multi-channel digital marketing campaigns, SEO strategy, and client acquisition funnels.',
   },
   {
     initials: 'MD',
@@ -250,13 +250,13 @@ export default function AboutPageClient() {
               </h2>
               <div className="space-y-4 text-slate-600 leading-relaxed text-sm sm:text-base">
                 <p>
-                  AQUEVRA SOLUTIONS was founded with a clear directive: to serve as the unified technology partner that modern businesses can depend on for everything — from structural cabling and CCTV security to bespoke web applications and corporate stationery printing.
+                  AQUEVRA SOLUTIONS was founded with a clear directive: to serve as the unified digital and creative partner that modern businesses can depend on for everything — from bespoke web applications and custom software to high-impact digital marketing, creative brand identity, and corporate gifting &amp; printing.
                 </p>
                 <p>
-                  We empower a diverse portfolio of clients across corporate offices, retail networks, healthcare facilities, education campuses, and growing commercial enterprises.
+                  We empower a diverse portfolio of clients across corporate offices, retail brands, e-commerce stores, healthcare facilities, education campuses, and growing commercial enterprises.
                 </p>
                 <p>
-                  Our multidisciplinary team bridges certified systems engineers with seasoned designers and developers — eliminating vendor fragmentation and delivering cohesive, professional execution.
+                  Our multidisciplinary team bridges full-stack software engineers with seasoned brand designers and digital marketing strategists — eliminating vendor fragmentation and delivering cohesive, professional execution.
                 </p>
               </div>
             </motion.div>
@@ -269,10 +269,10 @@ export default function AboutPageClient() {
               aria-label="Company highlights"
             >
               {[
-                { value: '8', label: 'Service Divisions' },
+                { value: '4', label: 'Core Divisions' },
                 { value: '10+', label: 'Industries Served' },
                 { value: '100%', label: 'Dedicated SLA Focus' },
-                { value: '24/7', label: 'Emergency Support' },
+                { value: '24/7', label: 'Client Assistance' },
               ].map((stat, i) => (
                 <div
                   key={i}

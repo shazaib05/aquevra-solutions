@@ -29,9 +29,9 @@ const steps: Step[] = [
   {
     number: '02',
     icon: <ClipboardList className="w-5 h-5 text-blue-600" aria-hidden="true" />,
-    title: 'Assessment & Planning',
+    title: 'Strategy & Planning',
     description:
-      'Our engineers assess your current setup and architect a tailored technology roadmap that aligns with your budget and goals.',
+      'Our team evaluates your requirements and architects a tailored digital, creative, and production roadmap aligned with your goals.',
   },
   {
     number: '03',
@@ -43,23 +43,23 @@ const steps: Step[] = [
   {
     number: '04',
     icon: <Wrench className="w-5 h-5 text-teal-600" aria-hidden="true" />,
-    title: 'Implementation',
+    title: 'Execution & Production',
     description:
-      'Our certified team deploys the solution with surgical precision, minimising downtime and operational disruption.',
+      'Our specialized team develops the software, designs the creatives, sets up campaigns, or prints materials with meticulous attention to detail.',
   },
   {
     number: '05',
     icon: <CheckCircle className="w-5 h-5 text-emerald-600" aria-hidden="true" />,
-    title: 'Testing & Review',
+    title: 'Review & Delivery',
     description:
-      'Rigorous quality assurance testing ensures every component meets industrial standards before formal handover.',
+      'Rigorous quality assurance, client reviews, and finishing inspections ensure every deliverable exceeds expectations before final handover.',
   },
   {
     number: '06',
     icon: <LifeBuoy className="w-5 h-5 text-sky-600" aria-hidden="true" />,
-    title: 'Support & Maintenance',
+    title: 'Support & Growth',
     description:
-      'Post-delivery, we stay with you — offering remote support, on-site visits, and AMC contracts to keep everything running seamlessly.',
+      'Post-delivery, we stay with you — providing ongoing software updates, marketing optimization, print re-runs, and responsive assistance.',
   },
 ];
 
