@@ -17,13 +17,10 @@ export interface PortfolioItem {
 
 export const portfolioCategories = [
   { id: "all", label: "All Projects" },
-  { id: "it-technical", label: "IT & Technical" },
-  { id: "networking", label: "Networking" },
-  { id: "cctv", label: "CCTV Installations" },
   { id: "web-software", label: "Websites & Software" },
   { id: "branding-design", label: "Branding & Design" },
-  { id: "social-media", label: "Social Media" },
   { id: "digital-marketing", label: "Digital Marketing" },
+  { id: "corporate-services", label: "Corporate Gifting & Printing" },
 ];
 
 export const portfolioItems: PortfolioItem[] = [
@@ -124,6 +121,28 @@ export const portfolioItems: PortfolioItem[] = [
       "[PLACEHOLDER] Combined CCTV and networking solution for a retail shop.",
     tags: ["CCTV", "Networking", "Retail", "Security"],
     image: "/images/portfolio/placeholder-retail.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p10",
+    title: "Executive Corporate Gift Sets & Packaging",
+    category: "Corporate Gifting & Printing",
+    categoryId: "corporate-services",
+    description:
+      "[PLACEHOLDER] Custom branded executive gift hampers, embossed leather diaries, metallic pens, and luxury packaging for annual corporate summit.",
+    tags: ["Corporate Gifting", "Custom Packaging", "Merchandise", "Executive Gifts"],
+    image: "/images/portfolio/placeholder-gifting.jpg",
+    isPlaceholder: true,
+  },
+  {
+    id: "p11",
+    title: "Commercial Flex Printing & Shop Signage",
+    category: "Corporate Gifting & Printing",
+    categoryId: "corporate-services",
+    description:
+      "[PLACEHOLDER] High-definition 3D acrylic LED shop signage, front-lit banners, and offset promotional brochures for multi-branch retail launch.",
+    tags: ["Flex Printing", "Shop Signage", "Offset Printing", "Banners"],
+    image: "/images/portfolio/placeholder-signage.jpg",
     isPlaceholder: true,
   },
 ];

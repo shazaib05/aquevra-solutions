@@ -43,14 +43,10 @@ type ContactFormData = z.infer<typeof contactSchema>;
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const services = [
-  'IT Support & Consultation',
-  'Networking Solutions',
-  'CCTV & Security Systems',
-  'Web & Software Development',
-  'Corporate Gifting & Printing',
-  'Graphic Design & Branding',
+  'Website & Software Solutions',
+  'Graphic Design & Creative Services',
   'Digital Marketing',
-  'Maintenance & Repair (AMC)',
+  'Corporate Gifting & Printing',
   'Other',
 ];
 

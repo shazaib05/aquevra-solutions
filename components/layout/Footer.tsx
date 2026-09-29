@@ -180,14 +180,10 @@ export default function Footer() {
             <nav aria-label="Services navigation">
               <ul className="space-y-2.5" role="list">
                 {[
-                  { href: '/services#it-technical', label: 'IT & Technical Services' },
-                  { href: '/services#networking', label: 'Networking & Infrastructure' },
-                  { href: '/services#cctv', label: 'CCTV & Security' },
-                  { href: '/services#web-software', label: 'Website & Software' },
-                  { href: '/services#graphic-design', label: 'Graphic Design & Creative' },
+                  { href: '/services#web-software', label: 'Website & Software Solutions' },
+                  { href: '/services#graphic-design', label: 'Graphic Design & Creative Services' },
                   { href: '/services#digital-marketing', label: 'Digital Marketing' },
                   { href: '/services#corporate-services', label: 'Corporate Gifting & Printing' },
-                  { href: '/services#maintenance-support', label: 'Maintenance & Support' },
                 ].map(({ href, label }) => (
                   <li key={href}>
                     <FooterLink href={href}>{label}</FooterLink>

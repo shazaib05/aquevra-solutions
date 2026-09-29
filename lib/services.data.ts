@@ -1,5 +1,5 @@
 // ============================================================
-// AQUEVRA SOLUTIONS — COMPLETE SERVICES CATALOGUE
+// AQUEVRA SOLUTIONS — SERVICES CATALOGUE
 // ============================================================
 
 export interface Service {
@@ -13,81 +13,10 @@ export interface Service {
   color: string; // Tailwind accent color class
 }
 
+// ────────────────────────────────────────────────────────────
+// CURRENT ACTIVE SERVICES (4 Core Offerings)
+// ────────────────────────────────────────────────────────────
 export const services: Service[] = [
-  {
-    id: "it-technical",
-    title: "IT & Technical Services",
-    description:
-      "Keep your computers, software, and business technology running smoothly with professional IT support, installation, troubleshooting, and optimization.",
-    items: [
-      "Windows Installation & Configuration",
-      "Licensed Software Installation & Configuration",
-      "Computer & Laptop Troubleshooting",
-      "Hardware Installation & Upgrades",
-      "Computer Formatting & System Optimization",
-      "Driver Installation & Updates",
-      "Printer Installation & Configuration",
-      "Printer Troubleshooting & Maintenance",
-      "Data Backup & Recovery",
-      "IT Support & Technical Assistance",
-      "Office IT Setup & Maintenance",
-      "Remote IT Support",
-      "Annual IT Maintenance Contracts (AMC)",
-    ],
-    cta: "Request IT Support",
-    ctaLink: "/support",
-    icon: "Monitor",
-    color: "cyan",
-  },
-  {
-    id: "networking",
-    title: "Networking & Infrastructure",
-    description:
-      "Build a stable, secure, and reliable network infrastructure for your home, office, or business.",
-    items: [
-      "LAN/WAN Network Installation",
-      "Office Network Setup",
-      "Router & Switch Configuration",
-      "Wi-Fi Network Installation",
-      "Network Cabling",
-      "Structured Cabling",
-      "Internet & Network Troubleshooting",
-      "Network Device Configuration",
-      "Server Setup & Basic Administration",
-      "Network Maintenance & Support",
-    ],
-    cta: "Plan My Network",
-    ctaLink: "/quote",
-    icon: "Network",
-    color: "blue",
-  },
-  {
-    id: "cctv-security",
-    title: "CCTV & Security Solutions",
-    description:
-      "Improve visibility, monitoring, and protection for homes, offices, shops, warehouses, and commercial locations with professional CCTV solutions.",
-    items: [
-      "CCTV Camera Installation",
-      "CCTV Camera Configuration",
-      "IP Camera Installation",
-      "DVR/NVR Installation & Configuration",
-      "CCTV Cabling",
-      "HDD Installation & Replacement",
-      "Mobile/Remote CCTV Viewing Setup",
-      "CCTV Troubleshooting & Repair",
-      "Camera Replacement & Upgrades",
-      "Wi-Fi Camera Installation",
-      "CCTV System Maintenance",
-      "Office & Commercial CCTV Solutions",
-      "Home CCTV Solutions",
-      "Warehouse CCTV Solutions",
-      "CCTV Annual Maintenance Contracts (AMC)",
-    ],
-    cta: "Request CCTV Consultation",
-    ctaLink: "/quote",
-    icon: "Camera",
-    color: "purple",
-  },
   {
     id: "web-software",
     title: "Website & Software Solutions",
@@ -112,7 +41,7 @@ export const services: Service[] = [
     cta: "Start My Digital Project",
     ctaLink: "/quote",
     icon: "Globe",
-    color: "green",
+    color: "blue",
   },
   {
     id: "graphic-design",
@@ -191,6 +120,86 @@ export const services: Service[] = [
     ctaLink: "/quote",
     icon: "Briefcase",
     color: "indigo",
+  },
+];
+
+// ────────────────────────────────────────────────────────────
+// SAVED FOR FUTURE USE (Preserved for easy re-activation)
+// ────────────────────────────────────────────────────────────
+export const savedFutureServices: Service[] = [
+  {
+    id: "it-technical",
+    title: "IT & Technical Services",
+    description:
+      "Keep your computers, software, and business technology running smoothly with professional IT support, installation, troubleshooting, and optimization.",
+    items: [
+      "Windows Installation & Configuration",
+      "Licensed Software Installation & Configuration",
+      "Computer & Laptop Troubleshooting",
+      "Hardware Installation & Upgrades",
+      "Computer Formatting & System Optimization",
+      "Driver Installation & Updates",
+      "Printer Installation & Configuration",
+      "Printer Troubleshooting & Maintenance",
+      "Data Backup & Recovery",
+      "IT Support & Technical Assistance",
+      "Office IT Setup & Maintenance",
+      "Remote IT Support",
+      "Annual IT Maintenance Contracts (AMC)",
+    ],
+    cta: "Request IT Support",
+    ctaLink: "/support",
+    icon: "Monitor",
+    color: "cyan",
+  },
+  {
+    id: "networking",
+    title: "Networking & Infrastructure",
+    description:
+      "Build a stable, secure, and reliable network infrastructure for your home, office, or business.",
+    items: [
+      "LAN/WAN Network Installation",
+      "Office Network Setup",
+      "Router & Switch Configuration",
+      "Wi-Fi Network Installation",
+      "Network Cabling",
+      "Structured Cabling",
+      "Internet & Network Troubleshooting",
+      "Network Device Configuration",
+      "Server Setup & Basic Administration",
+      "Network Maintenance & Support",
+    ],
+    cta: "Plan My Network",
+    ctaLink: "/quote",
+    icon: "Network",
+    color: "blue",
+  },
+  {
+    id: "cctv-security",
+    title: "CCTV & Security Solutions",
+    description:
+      "Improve visibility, monitoring, and protection for homes, offices, shops, warehouses, and commercial locations with professional CCTV solutions.",
+    items: [
+      "CCTV Camera Installation",
+      "CCTV Camera Configuration",
+      "IP Camera Installation",
+      "DVR/NVR Installation & Configuration",
+      "CCTV Cabling",
+      "HDD Installation & Replacement",
+      "Mobile/Remote CCTV Viewing Setup",
+      "CCTV Troubleshooting & Repair",
+      "Camera Replacement & Upgrades",
+      "Wi-Fi Camera Installation",
+      "CCTV System Maintenance",
+      "Office & Commercial CCTV Solutions",
+      "Home CCTV Solutions",
+      "Warehouse CCTV Solutions",
+      "CCTV Annual Maintenance Contracts (AMC)",
+    ],
+    cta: "Request CCTV Consultation",
+    ctaLink: "/quote",
+    icon: "Camera",
+    color: "purple",
   },
   {
     id: "maintenance-support",

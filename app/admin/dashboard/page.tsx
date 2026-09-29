@@ -205,7 +205,7 @@ export default function AdminDashboard() {
                 {[
                   { label: "Configure NEXT_PUBLIC_WEB3FORMS_KEY in .env.local", done: true },
                   { label: "White corporate theme applied across all 21 routes", done: true },
-                  { label: "8th service 'Corporate Gifting & Printing' integrated with comprehensive sub-services", done: true },
+                  { label: "4 core operational divisions active with remaining preserved for future release", done: true },
                   { label: "Transparent logo verified on crisp white navbar and footers", done: true },
                   { label: "Embed Karachi office Google Map coordinates", done: true },
                   { label: "Verify responsive forms across mobile, tablet, and desktop", done: true },
@@ -243,7 +243,7 @@ export default function AdminDashboard() {
           <div className="bg-sky-50 border border-sky-200 rounded-2xl p-5">
             <h3 className="font-bold text-sky-900 mb-1 text-sm">Corporate Production Readiness</h3>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-              All 8 core operational divisions (IT Support, Networking, CCTV, Web &amp; Software, Corporate Gifting &amp; Printing, Graphic Design, Digital Marketing, and Maintenance) are fully indexed with zero runtime errors.
+              All 4 core operational divisions (Website &amp; Software Solutions, Graphic Design &amp; Creative Services, Digital Marketing, and Corporate Gifting &amp; Printing) are fully active with remaining services safely preserved for future release.
             </p>
           </div>
         </div>

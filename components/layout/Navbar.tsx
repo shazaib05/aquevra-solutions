@@ -44,14 +44,10 @@ const navLinks: NavLink[] = [
 ];
 
 const serviceItems: ServiceItem[] = [
-  { id: 'it-technical', label: 'IT & Technical Services', icon: Monitor },
-  { id: 'networking', label: 'Networking & Infrastructure', icon: Network },
-  { id: 'cctv', label: 'CCTV & Security', icon: Camera },
-  { id: 'web-software', label: 'Website & Software', icon: Globe },
-  { id: 'graphic-design', label: 'Graphic Design & Creative', icon: Palette },
+  { id: 'web-software', label: 'Website & Software Solutions', icon: Globe },
+  { id: 'graphic-design', label: 'Graphic Design & Creative Services', icon: Palette },
   { id: 'digital-marketing', label: 'Digital Marketing', icon: Megaphone },
   { id: 'corporate-services', label: 'Corporate Gifting & Printing', icon: Briefcase },
-  { id: 'maintenance-support', label: 'Maintenance & Support', icon: Wrench },
 ];
 
 // ─── Animation variants ───────────────────────────────────────────────────────

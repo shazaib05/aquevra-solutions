@@ -270,12 +270,11 @@ export default function ServicesOverview() {
             custom={2}
             className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto"
           >
-            From high-availability IT infrastructure, networking, and security to websites,
-            custom software, corporate printing, and digital marketing — explore our 8 dedicated pillars.
+            From custom website & software solutions and creative graphic design to corporate gifting, printing, and digital marketing — explore our 4 core specialized divisions.
           </motion.p>
         </motion.div>
 
-        {/* ── Service Cards Grid (Now 8 Services!) ── */}
+        {/* ── Service Cards Grid (4 Core Services) ── */}
         <motion.div
           ref={gridRef}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"

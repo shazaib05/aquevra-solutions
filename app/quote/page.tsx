@@ -49,15 +49,10 @@ type QuoteFormData = z.infer<typeof quoteSchema>;
 // ─── Constants ───────────────────────────────────────────────────────────────
 
 const serviceCheckboxes = [
-  { id: 'it-support', label: 'IT Support & Consultation', icon: Cpu },
-  { id: 'networking', label: 'Networking & Structured Cabling', icon: Network },
-  { id: 'cctv', label: 'CCTV & Security Systems', icon: Camera },
-  { id: 'web-software', label: 'Web & Software Development', icon: Globe },
-  { id: 'software-dev', label: 'Custom Business Software', icon: Code2 },
-  { id: 'corporate-services', label: 'Corporate Gifting & Printing', icon: Briefcase },
-  { id: 'graphic-design', label: 'Graphic Design & Creative', icon: Palette },
+  { id: 'web-software', label: 'Website & Software Solutions', icon: Globe },
+  { id: 'graphic-design', label: 'Graphic Design & Creative Services', icon: Palette },
   { id: 'digital-marketing', label: 'Digital Marketing & SEO', icon: Megaphone },
-  { id: 'maintenance', label: 'Maintenance & AMC Contracts', icon: Wrench },
+  { id: 'corporate-services', label: 'Corporate Gifting & Printing', icon: Briefcase },
 ];
 
 const budgetOptions = [
